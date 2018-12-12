@@ -1,0 +1,67 @@
+<body>
+    <p>
+        == abstract equality != <br>
+        === strict equality !==
+    </p>
+
+    <p>
+        5 == 5 TRUE <br>
+        5 === 5 TRUE <br>
+        5 == '5' TRUE <br>
+        5 === '5' FALSE <br>
+        'Devlob' === 'Devlob' TRUE <br>
+        'Hello' === 'There' FALSE
+    </p>
+
+    <p>
+        5 !== 0 TRUE <br>
+        5 != 0 True <br>
+        false === '' FALSE <br>
+        false === 'false' FALSE <br>
+        false == 'false' FALSE <br>
+        false == 0 TRUE <br>
+        0 == '' FALSE
+        null == undefined TRUE
+    </p>
+
+    <p>
+        > <br>
+        < <br>
+        >= <br>
+        <=
+    </p>
+
+    <p>
+        1 > 8 FALSE <br>
+        5 < 3 FALSE <br></3>
+        10 >= 10 TRUE <br>
+        5 < '3' <br>
+        '2' > '10'
+    </p>
+
+
+    <b>
+        Steps for string comparison in JS
+    </b>
+    <ol>
+        <li>
+            Compare first characters of both strings.
+        </li>
+
+        <li>
+            If the first one is greater(or less), then the first string is greater(or less) than the second. We’re done.
+        </li>
+
+        <li>
+            Otherwise if first characters are equal, compare the second characters the same way.
+        </li>
+
+        <li>
+            Repeat until the end of any string.
+        </li>
+
+        <li>
+            If both strings ended simultaneously, then they are equal. Otherwise the longer string is greater.
+        </li>
+    </ul>
+</body>
