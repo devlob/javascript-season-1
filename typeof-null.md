@@ -1,0 +1,6 @@
+000 object
+001 int
+010 double
+100 string
+110 boolean
+00000000000000000000000000000000 null
