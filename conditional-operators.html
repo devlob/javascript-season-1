@@ -1,0 +1,29 @@
+<script>
+    var age = 20
+
+    if(age >= 18)
+        console.log('You are almost an adult now!')
+    else if(age < 18) {
+        console.log('You are a teenager.')
+        console.log('You cannot vote yet.')
+    }
+
+    var distance = 100
+
+    if(distance < 100)
+        console.log('So close')
+    else
+        console.log('Too far')
+
+    distance < 100 ? console.log('So close') : console.log('Too far')
+
+    var grade = 80
+
+    var result = grade < 60 ? 'F' :
+    grade >=60 && grade < 70 ? 'D' :
+    grade >=70 && grade < 80 ? 'C' :
+    grade >=80 && grade < 90 ? 'B' :
+    'A'
+
+    console.log(result)
+</script>
